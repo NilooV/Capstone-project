@@ -1,0 +1,153 @@
+Linear Regression Model Summaries
+========================================
+
+Anxiety Disorders vs GDP
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Anxiety disorders   R-squared:                       0.037
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     1.886
+Date:                Mon, 17 Jun 2024   Prob (F-statistic):              0.176
+Time:                        23:15:01   Log-Likelihood:                -84.534
+No. Observations:                  51   AIC:                             173.1
+Df Residuals:                      49   BIC:                             176.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================
+                                                          coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+const                                                   4.0748      0.539      7.561      0.000       2.992       5.158
+GDP per capita, PPP (constant 2017 international $)  1.379e-05      1e-05      1.373      0.176   -6.39e-06     3.4e-05
+==============================================================================
+Omnibus:                        1.458   Durbin-Watson:                   1.725
+Prob(Omnibus):                  0.482   Jarque-Bera (JB):                1.148
+Skew:                           0.366   Prob(JB):                        0.563
+Kurtosis:                       2.943   Cond. No.                     1.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+========================================
+
+Bipolar Disorders  vs GDP
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Bipolar disorders    R-squared:                       0.018
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.8906
+Date:                Mon, 17 Jun 2024   Prob (F-statistic):              0.350
+Time:                        23:15:02   Log-Likelihood:                 12.657
+No. Observations:                  51   AIC:                            -21.31
+Df Residuals:                      49   BIC:                            -17.45
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================
+                                                          coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+const                                                   0.7331      0.080      9.148      0.000       0.572       0.894
+GDP per capita, PPP (constant 2017 international $)  1.409e-06   1.49e-06      0.944      0.350   -1.59e-06    4.41e-06
+==============================================================================
+Omnibus:                       12.122   Durbin-Watson:                   1.969
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               15.115
+Skew:                           0.836   Prob(JB):                     0.000522
+Kurtosis:                       5.077   Cond. No.                     1.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+========================================
+
+Eating Disorders  vs GDP
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Eating disorders    R-squared:                       0.145
+Model:                            OLS   Adj. R-squared:                  0.128
+Method:                 Least Squares   F-statistic:                     8.323
+Date:                Mon, 17 Jun 2024   Prob (F-statistic):            0.00580
+Time:                        23:15:02   Log-Likelihood:                 27.939
+No. Observations:                  51   AIC:                            -51.88
+Df Residuals:                      49   BIC:                            -48.01
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================
+                                                          coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+const                                                   0.2269      0.059      3.821      0.000       0.108       0.346
+GDP per capita, PPP (constant 2017 international $)  3.193e-06   1.11e-06      2.885      0.006    9.69e-07    5.42e-06
+==============================================================================
+Omnibus:                       37.056   Durbin-Watson:                   1.203
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              128.470
+Skew:                           1.881   Prob(JB):                     1.27e-28
+Kurtosis:                       9.804   Cond. No.                     1.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+========================================
+
+Schizophrenia Disorders  vs GDP
+                               OLS Regression Results                               
+====================================================================================
+Dep. Variable:     Schizophrenia disorders    R-squared:                       0.024
+Model:                                  OLS   Adj. R-squared:                  0.004
+Method:                       Least Squares   F-statistic:                     1.187
+Date:                      Mon, 17 Jun 2024   Prob (F-statistic):              0.281
+Time:                              23:15:02   Log-Likelihood:                 98.523
+No. Observations:                        51   AIC:                            -193.0
+Df Residuals:                            49   BIC:                            -189.2
+Df Model:                                 1                                         
+Covariance Type:                  nonrobust                                         
+=======================================================================================================================
+                                                          coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+const                                                   0.2779      0.015     18.671      0.000       0.248       0.308
+GDP per capita, PPP (constant 2017 international $)  3.021e-07   2.77e-07      1.089      0.281   -2.55e-07    8.59e-07
+==============================================================================
+Omnibus:                       34.455   Durbin-Watson:                   1.547
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               78.410
+Skew:                           2.015   Prob(JB):                     9.41e-18
+Kurtosis:                       7.545   Cond. No.                     1.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+========================================
+
+Total Mental Disorders vs GDP
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     total_mental_disorders   R-squared:                       0.050
+Model:                                OLS   Adj. R-squared:                  0.031
+Method:                     Least Squares   F-statistic:                     2.595
+Date:                    Mon, 17 Jun 2024   Prob (F-statistic):              0.114
+Time:                            23:15:02   Log-Likelihood:                -91.913
+No. Observations:                      51   AIC:                             187.8
+Df Residuals:                          49   BIC:                             191.7
+Df Model:                               1                                         
+Covariance Type:                nonrobust                                         
+=======================================================================================================================
+                                                          coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+const                                                   5.3127      0.623      8.530      0.000       4.061       6.564
+GDP per capita, PPP (constant 2017 international $)  1.869e-05   1.16e-05      1.611      0.114   -4.63e-06     4.2e-05
+==============================================================================
+Omnibus:                        1.321   Durbin-Watson:                   1.617
+Prob(Omnibus):                  0.517   Jarque-Bera (JB):                1.201
+Skew:                           0.361   Prob(JB):                        0.548
+Kurtosis:                       2.793   Cond. No.                     1.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+========================================
+

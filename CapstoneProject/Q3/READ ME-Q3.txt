@@ -1,0 +1,9 @@
+READ ME FILE
+Question 3: How do different approaches that people take to mental health correlate with the GDP of countries?
+Data Preparation, Cleaning, and Merging
+Files Used:
+dealing-with-anxiety-depression-approaches.csv
+anxiety-disorders-prevalence-vs-gdp.csv
+Methods
+Scatter Plots: Visualize the relationship between GDP and each mental health approach.
+Linear Regression Analysis: Determine the trend and strength of the relationship between GDP and the share of the population using each mental health approach.

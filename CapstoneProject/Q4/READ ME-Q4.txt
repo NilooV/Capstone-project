@@ -1,0 +1,20 @@
+READ ME FILE
+Question 4: Investigate whether social policies influence death rates caused by mental health and substance use disorders
+Hypothesis 1: Standalone Insurance Policy
+Null Hypothesis (H0): No difference in death rates between countries with and without a stand-alone policy for mental health.
+Files Used:
+stand-alone-policy-or-plan-for-mental-health.csv
+death-rates-from-mental-and-substance-disorders-by-age-who.csv
+Methods
+Descriptive Analysis: Calculate mean, median, and standard deviation of death rates for both groups.
+T-Test: Determine if there is a statistically significant difference between the means of the two groups.
+Bootstrapping: Estimate sampling distribution and confidence intervals.
+Hypothesis 2: Number of Psychiatrists
+Null Hypothesis (H0): No correlation between death rates and the number of psychiatrists working in the mental health sector.
+Files Used:
+psychiatrists-working-in-the-mental-health-sector.csv
+death-rates-from-mental-and-substance-disorders-by-age-who.csv
+Methods
+Permutation Test: Non-parametric approach to hypothesis testing.
+P-Test: Calculate the p-value to assess the significance of the observed effect.
+Bootstrapping: Estimate sampling distribution and confidence intervals.

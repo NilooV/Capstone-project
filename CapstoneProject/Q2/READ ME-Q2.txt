@@ -1,0 +1,5 @@
+READ ME FILE
+Question 2: What are the trends in the prevalence of depression, anxiety, eating disorders, and bipolar disorder over time in different countries?
+File Used: high_income_countries.csv
+Methods
+Time Series Plots: Visualize mental disorder rates and GDP over time for each selected country.

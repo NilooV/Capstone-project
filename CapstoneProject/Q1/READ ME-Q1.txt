@@ -1,0 +1,11 @@
+READ ME FILE
+Question 1: How does the GDP of a country correlate with the prevalence of mental health issues?
+Files Used:
+anxiety-disorders-prevalence-vs-gdp.csv
+bipolar-disorder-prevalence.csv
+eating-disorders-prevalence.csv
+schizophrenia-prevalence.csv
+Methods
+Correlation Calculation: Correlation between GDP and prevalence rates of different mental health disorders.
+Scatter Plots: Visualize the relationship between GDP and each mental health disorder.
+Linear Regression: Determine the trend between GDP and mental health disorder rates.

@@ -1,0 +1,17 @@
+READ ME FILE
+Question 5: Using supervised learning to analyze the relationships between GDP, mental health disorder rates, deaths caused by mental health issues, and the number of psychiatric workers
+Files Used:
+death-rates-from-mental-and-substance-disorders-by-age-who.csv
+psychiatrists-working-in-the-mental-health-sector.csv
+Mental_health_GDP.csv
+Models Used:
+Linear Regression
+Random Forest Regressor
+Gradient Boosting
+Cross-Validation: Use k-fold cross-validation with k=5 to prevent overfitting.
+Hyperparameter Tuning: Use GridSearchCV to find the best parameter combination.
+Evaluation Metrics:
+Cross-validation RMSE scores
+Mean RMSE
+Standard deviation of RMSE
+R-squared
